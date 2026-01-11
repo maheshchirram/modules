@@ -4,7 +4,7 @@ resource "aws_instance" "this" {
   key_name      = var.key_name
 
   tags = {
-    Name = var.server_name
+    Name = var.tags
   }
 }
 
